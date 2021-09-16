@@ -1,8 +1,26 @@
-//TDD: Test-Driven Development
-//1.write a test that fails and run it to make sure it fails for the reason you expect
-//2.write or modify just enough code to make the new test pass
-//3.refactor the code you just added or changed and make sure the tests continue to pass
-//4.repeat from step 1
+/// TDD: Test-Driven Development
+///
+/// 1.write a test that fails and run it to make sure it fails for the reason you expect
+///
+/// 2.write or modify just enough code to make the new test pass
+///
+/// 3.refactor the code you just added or changed and make sure the tests continue to pass
+///
+/// 4.repeat from step 1
+///
+/// Adds one to the number given
+///
+/// #Examples
+///
+/// ```Rust
+/// let arg = 5;
+/// let answer = my_crate::add_one(arg);
+///
+/// assert_eq!(6, answer);
+/// ```
+pub fn add_one(x: i32) -> i32 {
+    x + 1
+}
 
 //use std::slice::Concat;
 use std::error::Error;
