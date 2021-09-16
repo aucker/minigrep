@@ -1,13 +1,10 @@
-/// TDD: Test-Driven Development
-///
-/// 1.write a test that fails and run it to make sure it fails for the reason you expect
-///
-/// 2.write or modify just enough code to make the new test pass
-///
-/// 3.refactor the code you just added or changed and make sure the tests continue to pass
-///
-/// 4.repeat from step 1
-///
+// TDD: Test-Driven Development
+//
+// 1.write a test that fails and run it to make sure it fails for the reason you expect
+// 2.write or modify just enough code to make the new test pass
+// 3.refactor the code you just added or changed and make sure the tests continue to pass
+// 4.repeat from step 1
+
 /// Adds one to the number given
 ///
 /// #Examples
